@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: #ED37BF;
+    color: white;
+    font-family: 'roboto', serif;
+}
+
+
+
+
+/* --------------------------- */
+
+#subfooter1 {
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* width: 100vw; */
+    /* background-color: aqua; */
+}
+
+#subfooter1 h1{
+    margin: 0;
+}
+
+/* --------------------------- */
+
+#subfooter2 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* background-color: aquamarine; */
+    /* width: 100vw; */
+
+}
+
+#subfooter2 h1{
+    margin: 0;
+}
+
+/* --------------------------- */
+
+#subfooter3 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#subfooter3 h1{
+    margin: 0;
+}
+
+#divSuscribirBoletin {
+    width: 80%;
+    background-color: aqua;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#inputApuntarse {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#botonEnviar {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#upToHome {
+    max-width: 15%;
+}
+
+#divFooterSocial {
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconsFooter {
+    max-width: 10%;
+}
+
+/* --------------------------- */
