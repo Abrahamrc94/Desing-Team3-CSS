@@ -1,0 +1,183 @@
+/* Ajustes generales de la página de inicio */
+
+*{
+    /*margin: 5px;
+    padding: 5px;*/
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.margen-interno{
+    padding: 0 50px;
+}
+    /* Estilos de la cabecera */
+    .header{
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        flex-flow: column nowrap;
+        background: #000;
+    }
+        /* Estilos del menu de navegación */
+        .menu{
+            display: flex;
+            flex-flow: row nowrap;
+            background: #ED37BF;
+            height: 100px;
+            align-items: center;
+        }
+            /* Estilos de los elementos del navegador */
+            .logo{
+                flex: 1 1 auto;
+                /*background: #777777;*/
+                
+            }
+                .logo a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+                .logo img{
+                    width: 40%;
+                    height: 30%;
+                }
+                /* Menù lateral*/
+                .menuLateral{
+                    display: table;
+                    width: 100%;
+                    margin-left: 0px;
+                    padding-left: 0px;
+                }
+                .menuLateralItem{
+                    list-style-type: none;
+                    display: block;
+                    padding: .3em 1em;
+                    background-color: #F0F0F0;
+                    color: #A0A0A0;
+                    text-decoration: none;
+                }
+                .menuLateralItem a:hover{
+                    background-color: #E8E8E8;
+                    color: #707070;
+                }
+                /* Menú hamburguesa*/
+                .navTop{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 10;
+                    width: 3em;
+                    height: 3em;
+                    color: white;
+                    overflow: hidden;
+                    cursor: pointer;
+                }
+                .navTop::after {
+                    content: "☰";
+                    font-size: 2em;
+                    width: 1em;
+                    line-height: 1;
+                    text-align: center;
+                    position: absolute;
+                    top: 25%;
+                    left: 25%;
+                    margin-top: -6px;
+                    margin-left: -4px;
+                }
+
+                .navTopList{
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    padding-top: 3em;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background-color: orange;
+                    width: 100vw;
+                    z-index: -1;
+                    height: 80px;
+                }
+                .check{
+                    display: none;
+                }
+                .check:checked ~ .navTop{
+                    overflow: visible;
+                }
+                .check:checked ~ .navTop::after{
+                    content: "x";
+                }
+                .check_label{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 100;
+                    width: 100%;
+                    height: 52.8px;
+                    color: white;
+                    overflow: visible;
+                    cursor: pointer;
+                    margin: 0;
+                    z-index: 100;
+                }
+             
+            .social{
+                flex: 1 1 auto;
+                background: #ED37BF;
+                display: flex;
+            }
+                .social a{
+                    font-size: 18px;
+                    color: #fff;
+                    padding: 0 5px;
+
+                }
+                .social img{
+                    width: 30%;
+                }
+
+                 /* Estilos del footer */
+    .footer{
+        margin: 5px;
+        padding: 5px;
+        background: #000;
+        display: flex;
+        justify-content: center;
+    }
+        .pie{
+            background: #ED37BF;
+            width: 300px;
+            
+        }
+
+/* Aplicamos los medias */
+@media all and (max-width: 800px){
+    .menu{
+        flex-direction: column;
+        height: auto;
+    }
+     /* Efecto hover para las flechas del slider 
+     .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }*/
+}
+
+@media all and (max-width: 600px){
+    .noticias{
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+@media all and (max-width: 400px){
+    
+}
