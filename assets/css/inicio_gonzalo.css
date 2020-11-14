@@ -123,6 +123,8 @@ body {
     background-color: #B2FB93;
   }
 
+  /* Bolas del slide*/
+/*Contenedor general*/
 .bolas{
     display: flex;
     background-color: #ffffff;
@@ -168,6 +170,14 @@ body {
   }
 
   /* FIN SLIDE */
+
+  h1{
+    font-size: 21px;
+    color: #1C6000;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.6;
+}
 
   /* Section Noticias */
   /* Ajustes de las opciones de noticias del blog */
