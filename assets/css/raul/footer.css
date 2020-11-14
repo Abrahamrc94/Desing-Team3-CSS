@@ -61,11 +61,18 @@ body {
 #inputApuntarse {
     width: 60%;
     margin: 0 auto;
+
+    border: 0;
 }
 
 #botonEnviar {
     width: 40%;
     margin: 0 auto;
+
+    background-color: rgb(116, 218, 14);
+    color: white;
+    border: 0;
+    font-weight: 600;
 }
 
 #upToHome {
