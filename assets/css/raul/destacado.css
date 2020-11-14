@@ -44,3 +44,38 @@
     font-size: 30px;
     font-weight: 700;
 }
+
+
+
+
+/* Formato para pantallas "grandes" */
+@media (min-width:900px) {
+
+    #divJuegoDestacado h1{
+        font-size: 50px;
+    }    
+
+    #destacadoGameplay {
+        width: 80%;
+    }
+    
+
+    #descripcionJuego p {
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+        font-size: 25px;
+        word-spacing: 10px;
+        letter-spacing: 2px;
+    }
+
+    #precioJuego {
+        font-size: 40px;
+    }    
+
+    #botonComprar {
+        font-size: 40px;
+        margin-bottom: 5%;
+    }    
+
+}

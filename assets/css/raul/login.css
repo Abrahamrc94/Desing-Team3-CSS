@@ -78,3 +78,24 @@
     background-color: #ED37BF;
     color: white;
 }
+
+/* Formato para pantallas "grandes" */
+@media (min-width:900px) {
+
+    #divRegistroLogin {
+        display: flex;
+    }
+
+    #divRegistro {
+        width: 50%;
+        padding-bottom: 5%;
+        border-bottom: 7px solid black;
+    }
+
+    #divLogin {
+        width: 50%;
+        padding-bottom: 5%;
+        border-bottom: 7px solid black;
+    }
+
+}

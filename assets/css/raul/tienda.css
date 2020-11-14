@@ -40,3 +40,33 @@
     margin-bottom: 5%;
     max-width: 100%;
 }
+
+
+/* Formato para pantallas "grandes" */
+@media (min-width:900px) {
+    #imgJuegoDestacado {
+        max-width: 80%;
+    }
+
+    #divJuegoDestacado h1{
+        font-size: 50px;
+    }
+
+    #divRestoJuegos {
+        margin-top: 5%;
+    }    
+    
+    #RestoJuegosGaleria1 {
+        display: flex;
+    }
+
+    #RestoJuegosGaleria2 {
+        display: flex;
+    }
+
+    .otroJuego {
+        max-width: 100%;
+        padding: 5%;
+    }
+
+}
