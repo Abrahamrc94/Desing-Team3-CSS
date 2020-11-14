@@ -123,7 +123,7 @@ body {
     background-color: #B2FB93;
   }
 
-  /* Bolas del slide*/
+/* Bolas del slide*/
 /*Contenedor general*/
 .bolas{
     display: flex;
@@ -164,14 +164,14 @@ body {
     to {opacity: 1}
   }
   
-  /* On smaller screens, decrease text size */
+/* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
   }
 
-  /* FIN SLIDE */
+/* FIN SLIDE */
 
-  h1{
+h1{
     font-size: 21px;
     color: #1C6000;
     font-weight: 300;
@@ -179,19 +179,25 @@ body {
     line-height: 1.6;
 }
 
-  /* Section Noticias */
-  /* Ajustes de las opciones de noticias del blog */
-  .section{
+h2{
+    font-size: 25px;
+    color: #1C6000;
+
+}
+
+/* Section Noticias */
+/* Ajustes de las opciones de noticias del blog */
+ 
+/* .section{
     margin: 5px;
     padding: 5px;
     display: flex;
-    background: #000;
-}
+}*/
     .noticias{
         display: flex;
         flex:1 1 auto;
         flex-flow: column;
-        background: #777777;
+      
     }
 
     .noticia{
@@ -201,20 +207,21 @@ body {
             letter-spacing: 1px;
             margin: 5px 5px 5px 5px;
             flex: 1 1 20%;
+            height: 50vw;
         }
             .noticia img{
                 margin: 0 0 0 0;
                 width: 100%;
-                height: 100%;
             }
             .noticia a {
                 color: #fff;
                 font-size: 13px;
                 padding: 10px;
                 background: #46EC00;
-                margin: 5px 10px 0;
+                margin:10px;
                 display: inline-block;
                 border-radius: 10px;
+                text-decoration: none;
 
             }
             .noticia a:hover{
@@ -236,5 +243,200 @@ body {
                 margin: 5px 0 0 5px;
                 padding: 5px 0 10px 5px;
             }
+            
+/* Estilos de la sección Nosotros */
+.section-nosotros{
+    margin: 5px;
+    padding: 5px;
+}
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        background-color: #ED37BF;
+        color:#fff;
+        font-family: 'Roboto';
+    }
+        .imagenSomos img{
+            width: 100%;
+            }
+        .texto-nostros{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .texto-nostros h2{
+            display: flex;
+            font-size: 40px;
+            color: #fff;
+            margin: 0 20%;
+        }
+        .rayaNosotros{
+            width: 25%;
+            height: 100%;
+            display: flex;
+            border-bottom: 5px solid #1C6000;
+            margin: 0 20%;
+        }
+        .texto-nostros p{
+            padding: 4vw;
+            font-size: 16px;
+            color: #fff;
+        }
+        .nosotrosBoton{
+            display: flex;
+            align-self: center;
+            margin: 10px;
+            padding: 5px;
+            background: #ED37BF;
+            border: 1px solid  #1C6000;
+            color: #fff;
+            font-family: 'Lato';
+            font-size: 18px;
+            
+        }
+        .nosotrosBoton:hover{
+            background-color: #1C6000;
+        }
 
+/* Estilos de la sección de Publicidad */
+ .section-publicidad{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+    .publicidad img{
+        width: 100%;
+}
 
+/* Estilos de la sección de Contacto */
+.section-contacto {
+    margin: 5px;
+    padding: 5px;
+}
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1C6000;
+    color:#fff;
+    font-family: 'Roboto';
+}
+.contacto h2 {
+    font-size: 40px;
+    color: white;
+}
+.rayaContacto{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    border-bottom: 5px solid #ED37BF;
+}
+.contacto p {
+    font-size: 16px;
+}
+.contactoBoton {
+    margin:10px;
+    padding: 5px;
+    background-color: #1C6000;
+    border: 1px solid  #ED37BF;
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 18px;
+}
+.contactoBoton:hover{
+    background-color: #ED37BF;
+}
+.googleMapa{
+    width: 100%;
+}
+
+#googleMapa iframe{
+    width:339px; 
+    
+     
+}
+/* Estilos del footer */
+
+.footer{
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    background-color: #ED37BF;
+    color: white;
+    font-family: 'roboto', serif;
+}
+#subfooter1 {
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#subfooter1 h1{
+    margin: 0;
+}
+
+/* --------------------------- */
+
+#subfooter2 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#subfooter2 h1{
+    margin: 0;
+}
+
+/* --------------------------- */
+
+#subfooter3 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#subfooter3 h1{
+    margin: 0;
+}
+
+#divSuscribirBoletin {
+    width: 80%;
+    background-color: aqua;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#inputApuntarse {
+    width: 60%;
+    margin: 0 auto;
+
+    border: 0;
+}
+
+#botonEnviar {
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgb(116, 218, 14);
+    color: white;
+    border: 0;
+    font-weight: 600;
+}
+
+#upToHome {
+    max-width: 15%;
+}
+
+#divFooterSocial {
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconsFooter {
+    max-width: 10%;
+}
+
+/* --------------------------- */
