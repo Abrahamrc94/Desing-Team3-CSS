@@ -1,0 +1,26 @@
+/* Móviles en horizontal de 480px */
+@media (min-witdh: 480px){
+    #desktop{
+        display: none;
+        
+    }
+   
+}
+
+/* Móviles en horizontal y tablest en vertical */
+@media (min-witdh: 768px){
+    #desktop{
+        display: none;
+    }
+}
+
+/* Tabltes en horizontal y escritorios normales */
+@media (min-witdh: 1024px){
+ #movil {
+     display: none;
+    }
+
+    .li a{
+        display:none;
+    }
+}

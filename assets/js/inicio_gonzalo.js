@@ -1,17 +1,3 @@
-const openbtn = document.getElementById("openbtn");
-const closebtn = document.getElementById("closebtn")
-
-
-openbtn.addEventListener('click',(e)=>{
-    e.preventDefault();
-    document.getElementById("menu").style.width= "250px";
-})
-
-closebtn.addEventListener('click',(e)=>{
-    e.preventDefault();
-    document.getElementById("menu").style.width= "0";
-})
-    
 
 let prev = document.getElementById("prev");
 let next = document.getElementById("next");
@@ -65,4 +51,6 @@ const showSlides=(n)=>{
 }
 
 let slideIndex = 1;
+
 showSlides(slideIndex);
+

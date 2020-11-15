@@ -1,0 +1,102 @@
+#divRegistroLogin {
+    border-top: 7px solid white;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #ED37BF;
+    color: white;
+}
+
+#divRegistroLogin label {
+    margin-left: 5%;
+    display: block;
+    float: left;
+    padding: 2px 5px 2px 5px;
+    font-size: 20px;
+    margin-top: 15px;
+    /* color: #ED37BF; */
+}
+
+#divRegistroLogin input {
+    margin-left: 5%;
+    width: 88%;
+    display: block;
+    outline: none;
+    border: none;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.botonCentrado {
+    margin-top: 10%;
+    /* centrar botón... */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* ----- Registro ----- */
+
+#divRegistro {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#divRegistro h1 {
+    text-align: center;
+    margin: 0;
+    /* color: #ED37BF; */
+}
+
+#divRegistro .botonCentrado {
+    background-color: rgb(116, 218, 14);
+    color: white;
+}
+
+/* ----- Login ----- */
+
+#divLogin {
+    padding-top: 5%;
+    background-color: #B2FB93;
+    color: #1C6000;
+    padding-bottom: 10%;
+}
+
+#divLogin h1 {
+    text-align: center;
+    margin: 0;
+    color: #1C6000;
+}
+
+#divLogin .botonCentrado {
+    background-color: #ED37BF;
+    color: white;
+}
+
+/* Formato para pantallas "grandes" */
+@media (min-width:900px) {
+
+    #divRegistroLogin {
+        display: flex;
+    }
+
+    #divRegistro {
+        width: 50%;
+        padding-bottom: 5%;
+        border-bottom: 7px solid white;
+    }
+
+    #divLogin {
+        width: 50%;
+        padding-bottom: 5%;
+        border-bottom: 7px solid white;
+    }
+
+}

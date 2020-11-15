@@ -1,0 +1,81 @@
+#divJuegoDestacado {
+    /* margin-top: 10%; */    /* por qué aumenta tamaño header? debería crear espacio en medio */
+    /* margin-bottom: 10%; */
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+}
+
+#divJuegoDestacado h1{
+    margin: 0;
+}
+
+#imgJuegoDestacado {
+    max-width: 100%;
+}
+
+#destacadoGameplay {
+    max-width: 100%;
+}
+
+#descripcionJuego {
+    width: 100%;
+    height: 100%;
+    background-color: #ED37BF;
+    color: white;
+    text-align: center;
+}
+
+#descripcionJuego p {
+    padding: 20px;
+    font-weight: 600;
+}
+
+#precioJuego {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#botonComprar {
+    margin-bottom: 10%;
+    background-color: chartreuse;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+
+/* Formato para pantallas "grandes" */
+@media (min-width:900px) {
+
+    #divJuegoDestacado h1{
+        font-size: 50px;
+    }    
+
+    #destacadoGameplay {
+        width: 80%;
+    }
+    
+
+    #descripcionJuego p {
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+        font-size: 25px;
+        word-spacing: 10px;
+        letter-spacing: 2px;
+    }
+
+    #precioJuego {
+        font-size: 40px;
+    }    
+
+    #botonComprar {
+        font-size: 40px;
+        margin-bottom: 5%;
+    }    
+
+}

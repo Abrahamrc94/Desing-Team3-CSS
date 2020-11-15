@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="es">
+
+<html lang="en">
+
 <head>
+    <!-- Usar la api de fonts de google para elegir una fuente en concreto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <link href="../assets/css/gonzalo/inicio_gonzalo.css" rel="stylesheet">
+    <link href="../assets/css/gonzalo/header.css" rel="stylesheet">
+    <link href="../assets/css/raul/footer.css" rel="stylesheet">
+    <link href="../assets/css/divMain.css" rel="stylesheet">
+    <link href="../assets/css/abraham/contacto.css" rel="stylesheet">
+    <link href="../assets/css/abraham/somos.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team3</title>
-    <link rel="stylesheet" type="text/css" href="../assets/css/inicio_gonzalo.css">
-    <!-- Usar la api de fonts de google para elegir una fuente en concreto -->
-    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Roboto">
+    <title>Team 3</title>
 </head>
+
 <body>
+
     <div class="divContainer">
-        
+
         <header>
             {% include header.html %}
-        </header
-        >
+
+        </header>
+
         <div class="divMain">
             {{content}}
         </div>
@@ -22,6 +32,8 @@
         <footer>
             {% include footer.html %}
         </footer>
+
     </div>
 </body>
+
 </html>
