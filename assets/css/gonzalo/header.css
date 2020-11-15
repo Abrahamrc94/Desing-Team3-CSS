@@ -73,7 +73,7 @@ body {
 
 
 /* Móviles en horizontal y tablest en vertical */
-@media (min-witdh: 768px){
+@media(min-witdh: 768px){
     .openbtn {
         width: 30vw;
         font-size: 60px;
@@ -86,7 +86,7 @@ body {
 }
 
 /* Tabltes en horizontal y escritorios normales */
-@media (min-witdh: 1024px){
+@media(min-witdh: 1024px){
  
     .openbtn {
         width: 30vw;
