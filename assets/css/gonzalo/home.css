@@ -92,13 +92,14 @@
 
 /* FIN SLIDE */
 
-h1{
+/* Comentado por no usarse y dar conflicto */
+/* h1{
     font-size: 21px;
     color: #1C6000;
     font-weight: 300;
     text-align: center;
     line-height: 1.6;
-}
+} */
 
 h2{
     font-size: 25px;
