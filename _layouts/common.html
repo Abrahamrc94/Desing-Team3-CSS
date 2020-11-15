@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -9,15 +10,18 @@
 </head>
 <body>
     <div class="divContainer">
-        <div class="header">
+        
+        <header>
             {% include header.html %}
-        </div>
-        <div class="contenido">
+        </header
+        >
+        <div class="divMain">
             {{content}}
         </div>
-        <div class="footer">
+
+        <footer>
             {% include footer.html%}
-        </div>
-</div>
+        </footer>
+    </div>
 </body>
 </html>
