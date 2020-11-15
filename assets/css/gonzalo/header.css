@@ -1,17 +1,14 @@
-/* Móviles en horizontal de 480px */
-@media (min-witdh: 480px){
-    #desktop{
-        display: none;
-        
-    }
-   
-}
-
 /* Móviles en horizontal y tablest en vertical */
 @media (min-witdh: 768px){
-    #desktop{
-        display: none;
-    }
+    .openbtn {
+        width: 30vw;
+        font-size: 40px;
+        cursor: pointer;
+        background-color: #ED37BF;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+      }
 }
 
 /* Tabltes en horizontal y escritorios normales */
@@ -20,7 +17,5 @@
      display: none;
     }
 
-    .li a{
-        display:none;
-    }
+ 
 }
