@@ -1,3 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Sección menú de navegación */
+/* Ajustes de la cabecera y del menú */
+.header{
+    height: 30vw;
+    display: flex;
+    background: #ED37BF;
+    justify-content: space-around;
+    
+}
+
+.menu{
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 450px;
+    top: 0;
+    left: 0;
+    background: #D800A4;        
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: #F790DD;
+}
+
+.menu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.openbtn {
+    width: 30vw;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #ED37BF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+
+.social{
+    display: flex;
+}
+   .menu img{
+        width: 70%;
+    }
+
+.logo img{
+    width: 40%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+/* --------------------------- */
+
+
 /* Móviles en horizontal y tablest en vertical */
 @media (min-witdh: 768px){
     .openbtn {
