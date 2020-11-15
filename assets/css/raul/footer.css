@@ -76,6 +76,8 @@ body {
 }
 
 #upToHome {
+    margin-top: 5%;
+    margin-bottom: 5%;
     max-width: 15%;
 }
 
@@ -109,7 +111,19 @@ body {
     }
 
     #subfooter1 {
-        padding-top: 0%;
+        padding-top: 2%;
+    }
+
+    #subfooter2 {
+        padding-top: 2%;
+    }
+
+    #subfooter3 {
+        padding-top: 2%;
+    }
+
+    #subfooter4 {
+        padding-top: 2%;
     }
 
 }
