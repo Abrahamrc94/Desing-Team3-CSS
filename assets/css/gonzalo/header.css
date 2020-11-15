@@ -87,9 +87,15 @@ body {
 
 /* Tabltes en horizontal y escritorios normales */
 @media (min-witdh: 1024px){
- #movil {
-     display: none;
-    }
-
+ 
+    .openbtn {
+        width: 30vw;
+        font-size: 80px;
+        cursor: pointer;
+        background-color: #ED37BF;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+      }
  
 }
