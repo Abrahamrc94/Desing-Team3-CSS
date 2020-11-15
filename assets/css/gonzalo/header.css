@@ -19,4 +19,8 @@
  #movil {
      display: none;
     }
+
+    .li a{
+        display:none;
+    }
 }
