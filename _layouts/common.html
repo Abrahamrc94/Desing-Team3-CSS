@@ -3,19 +3,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team3</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/inicio_gonzalo.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/inicio_gonzalo.css">
     <!-- Usar la api de fonts de google para elegir una fuente en concreto -->
     <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Roboto">
 </head>
 <body>
-    <div class="header">
-        {% include header.html %}
-    </div>
-    <div class="contenido">
-        {{content}}
-    </div>
-    <div class="footer">
-        {% include footer.html%}
-    </div>
+    <div class="divContainer">
+        <div class="header">
+            {% include header.html %}
+        </div>
+        <div class="contenido">
+            {{content}}
+        </div>
+        <div class="footer">
+            {% include footer.html%}
+        </div>
+</div>
 </body>
 </html>
