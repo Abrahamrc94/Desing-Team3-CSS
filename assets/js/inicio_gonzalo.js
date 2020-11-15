@@ -1,18 +1,4 @@
-const openbtn = document.getElementById("openbtn");
-const closebtn = document.getElementById("closebtn")
-
-
-openbtn.addEventListener('click',(e)=>{
-    e.preventDefault();
-    document.getElementById("menu").style.width= "250px";
-})
-
-closebtn.addEventListener('click',(e)=>{
-    e.preventDefault();
-    document.getElementById("menu").style.width= "0";
-})
-    
-
+ 
 let prev = document.getElementById("prev");
 let next = document.getElementById("next");
 let bola1 = document.getElementById("bola1");
