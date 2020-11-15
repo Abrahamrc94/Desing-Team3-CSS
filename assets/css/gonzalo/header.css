@@ -1,7 +1,7 @@
 /* Móviles en horizontal de 480px */
 @media all and (min-witdh: 480px){
     #desktop{
-        visibility: collapse;
+        visibility: hidden;
     }
    
 }
