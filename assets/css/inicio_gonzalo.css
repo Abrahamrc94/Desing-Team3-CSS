@@ -353,9 +353,7 @@ h2{
 }
 
 #googleMapa iframe{
-    width:339px; 
-    
-     
+   width: 100%;
 }
 /* Estilos del footer */
 
@@ -440,3 +438,28 @@ h2{
 }
 
 /* --------------------------- */
+
+/* Móviles en horizontal de 480px */
+@media(min-witdh: 480px){
+    #desktop{
+        visibility: hidden;
+    }
+   
+}
+
+/* Móviles en horizontal y tablest en vertical */
+@media (min-witdh: 768px){
+    #desktop{
+        visibility: hidden;
+    }
+}
+
+/* Tabltes en horizontal y escritorios normales */
+@media (min-witdh: 1024px){
+ #movil {visibility: hidden;}
+}
+
+/* Escritorios muy anchos */
+@media (min-witdh: 1200px){
+
+}
