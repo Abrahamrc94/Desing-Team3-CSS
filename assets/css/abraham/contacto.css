@@ -1,0 +1,291 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    #divMain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    color: #2d6a2e;
+    }
+
+
+    .Main{
+    flex-direction: column;
+    }
+
+    .letras {
+    order: 1;
+    }
+
+    .telefono {
+    order: 2;
+    flex-direction: column;
+    
+    }
+
+    .formulario{
+    order: 3;
+    flex-direction: column;
+    }
+
+    .mapa{
+    order: 4;
+    flex-direction: column;
+    }
+
+    #divLetras {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    /*margin-left: 50%;*/
+
+    }
+
+    #divTelefono {
+    width: 100%;
+    display: flex;
+    background-color: #b2fb93;
+    text-align: center;
+    margin-bottom: 2%;
+    }
+
+    .iconoTelefono{
+    display: block;
+    width: 50px; height: 50px;
+    margin: auto;
+    margin-top: 5%;
+    }
+
+    .numeroTelefono{
+    margin-bottom: 5%;
+    }
+
+    #divFormulario{
+    width: 100%;
+    display: flex;
+    background-color: #b2fb93;
+    text-align: center;
+    margin-bottom: 2%;
+    }
+
+    .iconoFormulario{
+    width: 60px; height: 60px;
+    margin-top: 5%;
+    display: block;
+    margin: auto;
+    }
+
+    .camposFormulario{
+    margin-bottom: 5%;
+    /*margin-left: 2%;
+    margin-right: 2%;*/
+    }      
+
+
+    #divMapa{
+    width: 100%;
+    display: flex;
+    background-color: #b2fb93;
+    text-align: center;
+    margin-bottom: 2%;
+    }
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+
+    #divMain {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-color: white;
+        color: #2d6a2e;
+        }
+    
+    
+        .Main{
+        flex-direction: column;
+        }
+    
+        .letras {
+        order: 1;
+        }
+    
+        .telefono {
+        order: 2;
+        flex-direction: column;
+        
+        }
+    
+        .formulario{
+        order: 3;
+        flex-direction: column;
+        }
+    
+        .mapa{
+        order: 4;
+        flex-direction: column;
+        }
+
+    #divLetras {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 5%;
+
+    }
+
+    .datosContacto{
+        margin: auto;
+    }
+
+    #divTelefono {
+    width: 100%;
+    display: flex;
+    background-color: #b2fb93;
+    text-align: center;
+    margin-bottom: 2%;
+    }
+
+    .iconoTelefono{
+    display: block;
+    width: 50px; height: 50px;
+    margin: auto;
+    margin-top: 5%;
+    }
+
+    .numeroTelefono{
+    margin-bottom: 5%;
+    margin: auto;
+    }
+
+    #divFormulario{
+        width: 100%;
+        display: flex;
+        background-color: #b2fb93;
+        text-align: center;
+        margin-bottom: 2%;
+        }
+    
+        .iconoFormulario{
+        width: 60px; height: 60px;
+        margin-top: 5%;
+        display: block;
+        margin: auto;
+        }
+    
+        .form{
+        margin-bottom: 15%;
+        margin: auto;
+        }
+     
+        .camposFormulario{
+            margin-bottom: 5%;
+        }
+
+        #divMapa{
+        width: 100%;
+        display: flex;
+        background-color: #b2fb93;
+        text-align: center;
+        margin-bottom: 2%;
+        }
+
+        .map{
+            margin: auto;
+        }
+}
+
+
+/* Big devices (desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    #divLetras {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 5%;
+
+    }
+
+    .datosContacto{
+        margin: auto;
+    }
+
+    #divTelefono {
+    width: 70%;
+    display: flex;
+    background-color: #b2fb93;
+    text-align: center;
+    margin-bottom: 2%;
+    }
+
+    .telefono{
+        margin: auto;
+    }
+
+    .iconoTelefono{
+    display: block;
+    width: 50px; height: 50px;
+    margin: auto;
+    margin-top: 5%;
+    }
+
+    .numeroTelefono{
+    margin-bottom: 5%;
+    margin: auto;
+    }
+
+    #divFormulario{
+        width: 70%;
+        display: flex;
+        background-color: #b2fb93;
+        text-align: center;
+        margin-bottom: 2%;
+        }
+
+        .formulario{
+            margin: auto;
+        }
+    
+        .iconoFormulario{
+        width: 60px; height: 60px;
+        margin-top: 5%;
+        display: block;
+        margin: auto;
+        }
+    
+        .form{
+        margin-bottom: 15%;
+        margin: auto;
+        }
+     
+        .camposFormulario{
+            margin-bottom: 5%;
+        }
+
+        #divMapa{
+        width: 70%;
+        display: flex;
+        background-color: #b2fb93;
+        text-align: center;
+        margin-bottom: 2%;
+        }
+
+        .mapa{
+            margin: auto;
+        }
+
+        .map{
+            margin: auto;
+        }
+}
