@@ -1,5 +1,5 @@
 /* Móviles en horizontal de 480px */
-@media all and (min-witdh: 480px){
+@media (min-witdh: 480px){
     #desktop{
         visibility: hidden;
     }
@@ -7,13 +7,13 @@
 }
 
 /* Móviles en horizontal y tablest en vertical */
-@media all and (min-witdh: 768px){
+@media (min-witdh: 768px){
     #desktop{
         visibility: hidden;
     }
 }
 
 /* Tabltes en horizontal y escritorios normales */
-@media all and (min-witdh: 1024px){
+@media (min-witdh: 1024px){
  #movil {visibility:hidden;}
 }
