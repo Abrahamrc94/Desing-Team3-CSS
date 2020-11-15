@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team3</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/inicio_gonzalo.css">
+    <!-- Usar la api de fonts de google para elegir una fuente en concreto -->
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Roboto">
+</head>
+<body>
+    <div class="divContainer">
+        
+        <header>
+            {% include header.html %}
+        </header
+        >
+        <div class="divMain">
+            {{content}}
+        </div>
+
+        <footer>
+            {% include footer.html %}
+        </footer>
+    </div>
+</body>
+</html>
